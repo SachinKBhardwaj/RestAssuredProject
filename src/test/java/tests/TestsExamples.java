@@ -13,7 +13,7 @@ public class TestsExamples {
         System.out.println(response.getStatusCode());
         System.out.println(response.getTime());
         System.out.println(response.getBody().asString());
-        //new line addeaga
+        //new line addea
         System.out.println(response.getBody().asString());
     }
     @Test
