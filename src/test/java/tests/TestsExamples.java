@@ -13,6 +13,8 @@ public class TestsExamples {
         System.out.println(response.getStatusCode());
         System.out.println(response.getTime());
         System.out.println(response.getBody().asString());
+        //new line added
+        System.out.println(response.getBody().asString());
     }
     @Test
     public void test_2(){
